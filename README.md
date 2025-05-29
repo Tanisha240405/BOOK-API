@@ -66,14 +66,15 @@ A simple RESTful API built using Node.js and Express to manage a list of books. 
 
 - **Method**: GET  
 - **URL**: `http://localhost:3000/books`
+![Screenshot 2025-05-29 141647](https://github.com/user-attachments/assets/a46295e2-ddc7-48fb-a700-11a3ad7f22e0)
 
-![Screenshot 2025-05-29 141647](https://github.com/user-attachments/assets/5792a818-6c7a-4d7e-b7ee-908e36918de0)
+
 
 ### ✏️ Update a Book
 
 - **Method**: PUT  
 - **URL**: `http://localhost:3000/books/2`  
-![Screenshot 2025-05-29 142106](https://github.com/user-attachments/assets/236b2905-b637-48fe-baa3-bb7b69b0575f)
+![Screenshot 2025-05-29 142106](https://github.com/user-attachments/assets/d6b92b3d-6baa-4fed-a041-20843886b69b)
 
 
 
@@ -97,22 +98,4 @@ book-api/
 └── README.md
 ```
 
----
 
-## 📌 Notes
-
-- Data is stored in memory, so it resets when the server restarts.
-- You can expand the project to use file storage or a database like MongoDB.
-
----
-
-## 👩‍💻 Author
-
-**Tanisha**  
-Made with ❤️ using Node.js + Express
-
----
-
-## 📜 License
-
-This project is licensed under the ISC License.
