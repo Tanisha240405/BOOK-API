@@ -66,14 +66,15 @@ A simple RESTful API built using Node.js and Express to manage a list of books. 
 
 - **Method**: GET  
 - **URL**: `http://localhost:3000/books`
-![Screenshot 2025-05-29 141647](https://github.com/user-attachments/assets/e5f68dd3-3be3-4123-ac1d-a1d3e5296198)
 
+![Screenshot 2025-05-29 141647](https://github.com/user-attachments/assets/5792a818-6c7a-4d7e-b7ee-908e36918de0)
 
 ### ✏️ Update a Book
 
 - **Method**: PUT  
 - **URL**: `http://localhost:3000/books/2`  
-![Screenshot 2025-05-29 142106](https://github.com/user-attachments/assets/99c563f0-cdea-498c-bc7b-c2878ae8f49e)
+![Screenshot 2025-05-29 142106](https://github.com/user-attachments/assets/236b2905-b637-48fe-baa3-bb7b69b0575f)
+
 
 
   ```
