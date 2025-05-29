@@ -1,101 +1,71 @@
+# Book API 📚
 
-# 📚 Book API
+A simple Express.js REST API to manage a list of books.
 
-A simple RESTful API built using Node.js and Express to manage a list of books. This API allows you to create, read, update, and delete book records in memory.
+## Features
 
----
-
-## 🚀 Features
-
-- Add a book (auto-incrementing ID)
-- Get all books
+- Add a new book
+- View all books
 - Update a book by ID
 - Delete a book by ID
 
----
+## Base URL
 
-## 🛠️ Tech Stack
+```
+http://localhost:3000/books
+```
 
-- Node.js
-- Express
+## Endpoints
 
----
+### 1. Get all books
 
-## 📦 Installation
+```
+GET /books
+```
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/book-api.git
-   cd book-api
-   ```
+### 2. Add a new book
 
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Start the server**:
-   ```bash
-   npm start
-   ```
-
-4. The API will be running at:
-   ```
-   http://localhost:3000
-   ```
-
----
-
-## 🧪 Testing with Postman
-
-### ➕ Add a Book
-
-- **Method**: POST  
-- **URL**: `http://localhost:3000/books`  
-- **Body (JSON)**:
-  ```json
-  {
+```
+POST /books
+Body:
+{
     "title": "The Alchemist",
     "author": "Paulo Coelho"
-  }
-![Screenshot 2025-05-29 141702](https://github.com/user-attachments/assets/7012cad9-0f15-4792-8847-6d9df5d0440a)
+}
+```
 
-  ```
+### 3. Update a book
 
-### 📚 Get All Books
+```
+PUT /books/:id
+Body:
+{
+    "title": "Updated Title",
+    "author": "Updated Author"
+}
+```
 
-- **Method**: GET  
-- **URL**: `http://localhost:3000/books`
-![Screenshot 2025-05-29 141647](https://github.com/user-attachments/assets/a46295e2-ddc7-48fb-a700-11a3ad7f22e0)
+### 4. Delete a book
 
+```
+DELETE /books/:id
+```
 
+## Screenshots
 
-### ✏️ Update a Book
+### Book List Response (GET)
+![GET](6f8011e3-16df-4807-b4f8-39181225308d.png)
 
-- **Method**: PUT  
-- **URL**: `http://localhost:3000/books/2`  
-![Screenshot 2025-05-29 142106](https://github.com/user-attachments/assets/d6b92b3d-6baa-4fed-a041-20843886b69b)
+### Add Book (POST)
+![POST](91894f51-1211-4720-8b88-a47562f69faa.png)
 
+### Update Book (PUT)
+![PUT](b42c3a6a-3ff5-4aba-b761-6b1bd8dc9630.png)
 
-
-  ```
-
-### ❌ Delete a Book
-
-- **Method**: DELETE  
-- **URL**: `http://localhost:3000/books/3`
-- ![Screenshot 2025-05-29 142155](https://github.com/user-attachments/assets/6fc1d696-cd6c-4eeb-9c13-9f23b086d8c2)
-
+### Delete Book (DELETE)
+![DELETE](fb3a33c2-1fcf-4a5b-abba-4cbf707a870e.png)
 
 ---
 
-## 📁 Project Structure
-
-```
-book-api/
-├── index.js
-├── package.json
-└── README.md
-```
-
+Created with ❤️ using Node.js and Express.
 
