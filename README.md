@@ -54,16 +54,20 @@ DELETE /books/:id
 ## Screenshots
 
 ### Book List Response (GET)
-![GET](6f8011e3-16df-4807-b4f8-39181225308d.png)
+![Screenshot 2025-05-29 141647](https://github.com/user-attachments/assets/be16a3bc-4bd2-4e96-9e36-6f19a0972c23)
+
 
 ### Add Book (POST)
-![POST](91894f51-1211-4720-8b88-a47562f69faa.png)
+![Screenshot 2025-05-29 141702](https://github.com/user-attachments/assets/0f90a60a-2c67-484a-bd00-e397ba412f15)
+
 
 ### Update Book (PUT)
-![PUT](b42c3a6a-3ff5-4aba-b761-6b1bd8dc9630.png)
+![Screenshot 2025-05-29 142106](https://github.com/user-attachments/assets/4b7205fb-a7a0-4a7c-ba10-d33f0ce62f4d)
+
 
 ### Delete Book (DELETE)
-![DELETE](fb3a33c2-1fcf-4a5b-abba-4cbf707a870e.png)
+![Screenshot 2025-05-29 142155](https://github.com/user-attachments/assets/552b0b2c-5b18-419f-9d04-9fd59082cb24)
+
 
 ---
 
