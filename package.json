@@ -1,0 +1,14 @@
+{
+  "name": "book-api",
+  "version": "1.0.0",
+  "description": "Simple REST API for managing books",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tanisha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
